@@ -12,9 +12,6 @@
 
 - (void)drawRect:(NSRect)dirtyRect {
 	[super drawRect:dirtyRect];
-	
-	[[NSColor colorWithCalibratedRed:0.88 green:0.88 blue:0.88 alpha:0.95] setFill];
-	NSRectFill([self bounds]);
 }
 
 
